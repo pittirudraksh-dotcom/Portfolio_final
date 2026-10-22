@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Rudraksh Pitti's personal portfolio, skills, and projects." />
+    <title>Rudraksh Pitti — CSE Student &amp; Aspiring Developer</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="chatbot.css" />
+  </head>
+
+  <body>
+    <header class="site-header" id="home">
+      <nav class="site-nav" aria-label="Main navigation">
+        <a class="brand" href="#home">Rudraksh Pitti</a>
+        <div class="nav-links">
+          <a href="#about">About Me</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+          <a href="#aiChatSection">AI Chatbot</a>
+        </div>
+      </nav>
+
+      <div class="hero">
+        <img class="profile-image" src="https://avatars.githubusercontent.com/u/235026404?v=4" alt="GitHub profile image for Rudraksh Pitti" width="112" height="112" />
+        <div>
+          <p class="eyebrow">Computer Science &amp; Engineering</p>
+          <h1>Hi, I'm Rudraksh Pitti.</h1>
+          <p class="tagline">B.Tech CSE student focused on full-stack web development and building useful projects.</p>
+          <p class="hero-links">
+            <a href="https://github.com/pittirudraksh-dotcom" target="_blank" rel="noopener noreferrer">GitHub profile</a>
+            <a href="#projects">Explore my projects</a>
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>
+          I'm Rudraksh Pitti, a B.Tech Computer Science and Engineering student at JECRC University,
+          Jaipur, specialising in AI and Machine Learning. I enjoy learning how websites
+          work, practising programming fundamentals, and turning what I learn into small projects.
+        </p>
+        <p>
+          My current learning interests include HTML, CSS, JavaScript, Python, Git, and web APIs.
+          I'm continuing to strengthen my fundamentals while building and improving practical projects.
+        </p>
+        <p><strong>Education:</strong> B.Tech in Computer Science and Engineering — JECRC University, Jaipur.</p>
+      </section>
+
+      <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Python</li>
+          <li>Git &amp; GitHub</li>
+          <li>API integration</li>
+          <li>Basic Node.js</li>
+        </ul>
+      </section>
+
+      <section id="projects" class="projects">
+        <h2>My Projects</h2>
+        <p>Coursework and practice projects I've built and improved.</p>
+        <label class="project-search-label" for="projectSearch">Search by project name or technology</label>
+        <input type="search" id="projectSearch" placeholder="Try Python, Quiz, Book, JavaScript..." autocomplete="off" />
+        <p id="projectSearchStatus" class="search-status" role="status" aria-live="polite">Showing all 5 projects.</p>
+
+        <div class="project-grid" id="projectGrid">
+          <article class="project-card" data-search="python programs collection factorial structure dictionary conversion readme python">
+            <p class="project-type">Python · Fundamentals</p>
+            <h3>Python Programs Collection</h3>
+            <p>A collection of beginner Python exercises and programming fundamentals, including factorial and structure-related practice.</p>
+            <p class="tech-list"><strong>Technologies:</strong> Python</p>
+            <div class="project-links">
+              <a href="https://github.com/pittirudraksh-dotcom/python_basics_25BCON2488" target="_blank" rel="noopener noreferrer">Python basics repository</a>
+              <a href="https://github.com/pittirudraksh-dotcom/python-basics2_25bcon2488" target="_blank" rel="noopener noreferrer">Structure exercise repository</a>
+            </div>
+          </article>
+
+          <article class="project-card" data-search="messy python code improvement ai assistance cleaner code refactoring python">
+            <p class="project-type">Python · Code quality</p>
+            <h3>Messy Python Code Improvement</h3>
+            <p>A code-improvement exercise focused on making a Python script clearer and easier to maintain with AI assistance.</p>
+            <p class="tech-list"><strong>Technologies:</strong> Python, AI-assisted review</p>
+            <div class="project-links">
+              <a href="https://github.com/pittirudraksh-dotcom/python-basics2_25bcon2488" target="_blank" rel="noopener noreferrer">GitHub repository</a>
+            </div>
+          </article>
+
+          <article class="project-card" data-search="bug fixing cursor ai buggy python script testing debugging functions">
+            <p class="project-type">Python · Debugging</p>
+            <h3>Bug Fixing Using Cursor AI</h3>
+            <p>A Python student-utilities project involving average marks, pass status, grade assignment, and debugging/testing practice.</p>
+            <p class="tech-list"><strong>Technologies:</strong> Python, testing, Cursor AI</p>
+            <div class="project-links">
+              <a href="https://github.com/pittirudraksh-dotcom/Buggy_python_script-25BCON2488" target="_blank" rel="noopener noreferrer">GitHub repository</a>
+            </div>
+          </article>
+
+          <article class="project-card" data-search="interactive quiz application quiz html css javascript">
+            <p class="project-type">Web · Interactive</p>
+            <h3>Interactive Quiz Application</h3>
+            <p>A quiz application developed as coursework to practise interactive web-page behaviour.</p>
+            <p class="tech-list"><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+            <div class="project-links">
+              <a href="https://github.com/pittirudraksh-dotcom/QUIZ---25bcon2488" target="_blank" rel="noopener noreferrer">GitHub repository</a>
+              <a href="https://ai-quiz-application-2488.netlify.app" target="_blank" rel="noopener noreferrer">Live application</a>
+            </div>
+          </article>
+
+          <article class="project-card" data-search="book reading list application books reading list html css javascript deployed app">
+            <p class="project-type">Web · Application</p>
+            <h3>Book Reading List Application</h3>
+            <p>A reading list application for adding books. Visit the deployed app or view its source code.</p>
+            <p class="tech-list"><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+            <div class="project-links">
+              <a href="https://github.com/rudrakshpittie-ai/reading_list--25BCON2488" target="_blank" rel="noopener noreferrer">GitHub repository</a>
+              <a href="https://reading-list-lake.vercel.app/" target="_blank" rel="noopener noreferrer">Live application</a>
+            </div>
+          </article>
+        </div>
+        <p id="noProjectsMessage" class="no-results" hidden>No projects match that search. Try Python, Quiz, Book, or JavaScript.</p>
+      </section>
+
+      <section id="weather" class="weather-section">
+        <h2>Weather</h2>
+        <p>Check the current weather by city.</p>
+        <div class="weather-controls">
+          <input type="text" id="cityInput" placeholder="Enter a city" aria-label="City name" />
+          <button id="weatherButton" type="button">Get Weather</button>
+        </div>
+        <div id="weatherResult" aria-live="polite">Enter a city to see the weather.</div>
+      </section>
+    </main>
+
+    <section id="aiChatSection" class="ai-chat">
+      <h2>Ask My AI Assistant</h2>
+      <p>Ask questions about my background, skills, projects, or technologies.</p>
+      <div id="chatMessages" aria-live="polite" aria-label="Chat messages"></div>
+      <div class="chat-controls">
+        <input type="text" id="userInput" placeholder="Ask a question..." aria-label="Your question" />
+        <button id="sendButton" type="button">Send</button>
+      </div>
+      <p id="chatStatus" role="status" aria-live="polite"></p>
+      <p class="chat-note">The assistant answers using portfolio information. Do not enter private information.</p>
+    </section>
+
+    <footer id="contact" class="site-footer">
+      <h2>Contact</h2>
+      <p>You can connect with me through GitHub.</p>
+      <p><a href="https://github.com/pittirudraksh-dotcom" target="_blank" rel="noopener noreferrer">GitHub profile: @pittirudraksh-dotcom</a></p>
+    </footer>
+
+    <button id="themeToggle" type="button" aria-pressed="false">Switch to Dark Mode</button>
+    <script src="./script.js"></script>
+    <script src="config.js"></script>
+    <script src="chatbot.js"></script>
+  </body>
+</html>
